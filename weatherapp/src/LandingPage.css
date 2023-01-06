@@ -1,0 +1,66 @@
+.BgDiv{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(0.5px);
+}
+
+.TextDiv{
+    position: absolute;
+    top: 0%;
+    height:100%;
+    width:100%;
+    /* background-color: blue; */
+}
+
+.MainDetails{
+    position:absolute;
+    top: 60%;
+    left: 5%;
+    right: 40%;
+    color: white;
+}
+
+.sideRow{
+    position: absolute;
+    top : 0%;
+    right : 0%; 
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13px );
+    -webkit-backdrop-filter: blur( 13px );
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 25%;
+    height: 100%;
+}
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
